@@ -13,3 +13,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - build a new py file named milestone_3.py
 - use two functions to create a loop asking for input and check if the letter is in the word. Such a word is chosen from the user defined list and randomly selected with 'random.choice' fucntion.
 - upload the updates to remote github.
+
+## milestone 4 code
+- build a new py file named milestone_4.py
+- build method to judge if the user guessed word existing in the chosen word
+- if the letter coincide with the word at specific location, then we show such letter of the word
+- give information to the user if the letter in the word or not and also show how many lives left

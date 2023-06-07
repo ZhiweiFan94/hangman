@@ -5,6 +5,9 @@ random_word = random.choice(word_list)
 
 #%% task 1
 def ask_for_input():
+    '''
+    Ask for a letter from user
+    '''
     while True:
         guess = input()
         if guess.isalpha() and len(guess) == 1:
@@ -21,3 +24,9 @@ def check_guess(user_letter):
         print(f'Sorry, {guess} is not in the word. Try again.')
 # %%
 ask_for_input()
+
+'''
+This part is run the function ask_for_input() to gain a letter from user and check
+if the letter is within the randomly seletcted word.
+'''
+# %%
