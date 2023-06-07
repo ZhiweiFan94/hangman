@@ -16,8 +16,8 @@ def ask_for_input():
             print('Invalid letter. Please, enter a single alphabetical character.')
     check_guess(guess)
 # %% task 2
-def check_guess(user_letter):
-    guess = user_letter.lower()
+def check_guess(guess):
+    guess = guess.lower()
     if guess in random_word:
         print(f'Good guess! {guess} is in the word')
     else:
