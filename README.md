@@ -19,3 +19,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 - build method to judge if the user guessed word existing in the chosen word
 - if the letter coincide with the word at specific location, then we show such letter of the word
 - give information to the user if the letter in the word or not and also show how many lives left
+
+## milestone 5 code
+- build a new py file named milestone_5.py
+- build a new method to excute the game by calling the method 'ask_for_input'
+- make sure the game will reflect the correct information to users in each module
+- test if the game runs corrects and upload to the github
